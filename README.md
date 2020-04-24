@@ -1,10 +1,10 @@
-# Nodejs Cookbok :computer: :cd: :electric_plug:
+# Nodejs Cookbook :computer: :cd:
 
 This project consists of a Nodejs Cookbook. The Cookbook installs Nodejs from the source.
-- The purpose of the repository is to showcase the Installation of Nodejs using Chef, by provisioning packages, dependancies, templates and then testing the code for functionality in your local and Virtual environment.
+- This Cookbook installs on of Nodejs using Chef, by provisioning packages, dependancies, templates. Then testing the code for functionality in the local and Virtual environment.
 
 ### Prerequisites
-- In order to run the Nodejs Cookbook you must ensure you have the packages bellow:
+- In order to run the Nodejs Cookbook you must ensure you have the following below:
 
 ```CSS
 - Virtualbox
@@ -26,14 +26,14 @@ This project consists of a Nodejs Cookbook. The Cookbook installs Nodejs from th
 - Chef helps by managing the infrastructure of code to create an autonomous process. Chef has a client server architecture meaning it is able to support various platforms such as; Ubuntu, Windows, OS x, Solaris, etc.
 
 ### Installation
-- In order to download this repository, open your terminal and `mkdir <filename>`, then `cd` into that new directory and run:
+-  To download this Nodejs Cookbook repository, open terminal and run the command below:
 
 ```python
 git clone git@github.com:Aymz96/NodeCookbookStarterCode.git
 ```
 
-### Run Cookbook tests
-- In order to test the Nodejs Cookbook, you must first navigate into the Cookbook through the terminal, then execute the steps below:
+### Run Nodejs Cookbook tests
+- To test the Nodejs Cookbook, navigate into the Cookbook through the terminal, then execute the steps below:
 
 ### Testing Cookbook
 - Once in the directory you will be testing both the ChefSpec and ChefInspec.
@@ -64,5 +64,5 @@ KITCHEN_YAML=.kitchen_ec2.yml kitchen test
 ### Success
 - Once you have run all the test as described above in the documentation. The test should all pass successfully as long as no new configurations have been done without the appropriate management.
 
-☆彡(ノ^ ^)ノ Congratulations ヘ(^ ^ヘ)☆彡
-:v::ok_hand:
+#### Author
+**Ayman Yousfi** - *Junior DevOps Engineer* - [Aymz96](https://github.com/Aymz96)
