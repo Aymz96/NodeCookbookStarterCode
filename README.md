@@ -25,17 +25,17 @@ This project consists of a Nodejs Cookbook. The Cookbook installs Nodejs from th
 - A company released in 2009 which created a tool that goes after its name `Chef`. This tool was designed as a configuration management written in ruby.
 - Chef helps by managing the infrastructure of code to create an autonomous process. Chef has a client server architecture meaning it is able to support various platforms such as; Ubuntu, Windows, OS x, Solaris, etc.
 
-### Installation
+### How to install Nodejs Dev-Env
 -  To download this Nodejs Cookbook repository, open terminal and run the command below:
 
 ```python
 git clone git@github.com:Aymz96/NodeCookbookStarterCode.git
 ```
 
-### Run Nodejs Cookbook tests
-- To test the Nodejs Cookbook, navigate into the Cookbook through the terminal, then execute the steps below:
+### Run Mongodb Dev-Env tests
+- To run the Nodejs Cookbook, navigate into  NodeCookbookStarterCode through the terminal, then follow the next steps.
 
-### Testing Cookbook
+### Test Nodejs Dev-Env
 - Once in the directory you will be testing both the ChefSpec and ChefInspec.
 
 **ChefSpec**
